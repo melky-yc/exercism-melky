@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0A66C2">
+    <title>Exercícios — Recursos para Estudo</title>
+    <meta name="description" content="Listagem de exercícios para download. PDF e DOCX com correções e sugestões de estudo.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="brand">
+            <h1><a href="index.html">Arquivos do Melky</a></h1>
+            <p class="tagline">Exercícios para estudar e praticar</p>
+        </div>
+        <div class="controls">
+            <label for="search" class="visually-hidden">Buscar arquivos</label>
+            <input type="search" id="search" placeholder="Buscar arquivos..." aria-label="Buscar arquivos">
+            <button id="theme-toggle" aria-pressed="false" title="Alternar tema">Tema</button>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <div class="container">
+        <nav class="breadcrumbs" aria-label="Caminho">
+            <a href="index.html">Início</a>
+            <span aria-hidden="true">›</span>
+            <span>Exercícios</span>
+        </nav>
+
+        <ul class="file-list">
+
+        <!-- EXEMPLOS — substitua pelos seus arquivos -->
+        <li class="file" data-title="Lista de Exercícios 01" data-type="pdf" data-size="1.2 MB">
+            <div class="file-info">
+                <span class="file-title">Lista de Exercícios 01 (PDF)</span>
+                <span class="muted">1.2 MB</span>
+            </div>
+            <a href="arquivos/lista01.pdf" download class="btn-small" aria-label="Baixar Lista de Exercícios 01 (PDF)">Baixar</a>
+        </li>
+
+        <li class="file" data-title="Exercícios de Funções" data-type="docx" data-size="234 KB">
+            <div class="file-info">
+                <span class="file-title">Exercícios de Funções (DOCX)</span>
+                <span class="muted">234 KB</span>
+            </div>
+            <a href="arquivos/funcoes.docx" download class="btn-small">Baixar</a>
+        </li>
+
+        <li class="file" data-title="Matemática — Revisão" data-type="pdf" data-size="3.1 MB">
+            <div class="file-info">
+                <span class="file-title">Matemática Aplicada — Revisão (PDF)</span>
+                <span class="muted">3.1 MB</span>
+            </div>
+            <a href="arquivos/revisao.pdf" download class="btn-small">Baixar</a>
+        </li>
+
+    </ul>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="index.html" class="btn-ghost">Voltar</a>
+            <p class="muted">Se você é professor e quer compartilhar materiais, entre em contato — (opcional)</p>
+        </div>
+    </footer>
+</body>
+</html>

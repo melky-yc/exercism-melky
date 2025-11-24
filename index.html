@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0A66C2">
+    <title>Arquivos para Download — Recursos para Alunos</title>
+    <meta name="description" content="Baixe exercícios, guias e apostilas de forma rápida e segura. Recursos para estudo e revisão para alunos.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="brand">
+            <h1>Arquivos do Melky</h1>
+            <p class="tagline">Recursos para alunos — Baixe com rapidez</p>
+        </div>
+        <nav aria-label="Menu principal">
+            <ul class="nav">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="exercicios.html">Exercícios</a></li>
+                <li><a href="#">Guias</a></li>
+                <li><a href="#">Apostilas</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <label for="search" class="visually-hidden">Buscar arquivos</label>
+            <input type="search" id="search" placeholder="Buscar arquivos..." aria-label="Buscar arquivos">
+            <button id="theme-toggle" aria-pressed="false" title="Alternar tema">Tema</button>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <section class="hero">
+        <div class="container">
+            <h2>Encontre e baixe materiais para estudo</h2>
+            <p class="lead">Exercícios, guias e apostilas organizados para facilitar seu aprendizado. Sem cadastro — acesso rápido.</p>
+            <div class="hero-cta">
+                <a href="exercicios.html" class="btn btn-primary">Ver Exercícios</a>
+                <a href="#" class="btn">Ver Guias</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container categories" aria-labelledby="categories-title">
+        <h3 id="categories-title" class="visually-hidden">Categorias</h3>
+        <a href="exercicios.html" class="card"><span class="card-icon">📘</span>Exercícios</a>
+        <a href="tarefas.html" class="card"><span class="card-icon">📂</span>Tarefas</a>
+        <a href="guias.html" class="card"><span class="card-icon">📗</span>Guias</a>
+        <a href="apostilas.html" class="card"><span class="card-icon">📕</span>Apostilas</a>
+    </section>
+    
+</main>
+
+<footer>
+    <p>Site simples para alunos — Downloads rápidos e sem login.</p>
+</footer>
+</body>
+</html>
